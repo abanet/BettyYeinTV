@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "PoleTvWeb": {
+      "applicationId": "4OPp1aOvoCtfopZmD5yZiqKYJhSOc9XSBfXEGYgQ"
+    },
+    "_default": {
+      "link": "PoleTvWeb"
+    }
+  }
+}
