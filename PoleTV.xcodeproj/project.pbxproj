@@ -8,16 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C0CEB6701BEA2477000573B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEB66F1BEA2477000573B9 /* AppDelegate.swift */; };
-		C0CEB6721BEA2477000573B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEB6711BEA2477000573B9 /* ViewController.swift */; };
-		C0CEB6751BEA2477000573B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CEB6731BEA2477000573B9 /* Main.storyboard */; };
 		C0CEB6771BEA2477000573B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CEB6761BEA2477000573B9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C0CEB66C1BEA2477000573B9 /* PoleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CEB66F1BEA2477000573B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0CEB6711BEA2477000573B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C0CEB6741BEA2477000573B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0CEB6761BEA2477000573B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0CEB6781BEA2477000573B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				C0CEB66F1BEA2477000573B9 /* AppDelegate.swift */,
-				C0CEB6711BEA2477000573B9 /* ViewController.swift */,
-				C0CEB6731BEA2477000573B9 /* Main.storyboard */,
 				C0CEB6761BEA2477000573B9 /* Assets.xcassets */,
 				C0CEB6781BEA2477000573B9 /* Info.plist */,
 			);
@@ -120,7 +114,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0CEB6771BEA2477000573B9 /* Assets.xcassets in Resources */,
-				C0CEB6751BEA2477000573B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,23 +124,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0CEB6721BEA2477000573B9 /* ViewController.swift in Sources */,
 				C0CEB6701BEA2477000573B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C0CEB6731BEA2477000573B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0CEB6741BEA2477000573B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C0CEB6791BEA2477000573B9 /* Debug */ = {
@@ -238,7 +219,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PoleTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = es.todopole.PoleTV;
+				PRODUCT_BUNDLE_IDENTIFIER = es.todopole.BettyTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -250,7 +231,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PoleTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = es.todopole.PoleTV;
+				PRODUCT_BUNDLE_IDENTIFIER = es.todopole.BettyTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -274,6 +255,7 @@
 				C0CEB67D1BEA2477000573B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
